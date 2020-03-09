@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.bigbloc {
+  background-color: blueviolet;
+  width: 900px;
+  height: 300px;
+  border-radius: 5%;
+  margin: 10% 20%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
   color: white;
+  font-size: xx-large;
+  margin-top: 5%;
+  margin-right: 2%;
 }
-
-.App-link {
-  color: #61dafb;
+.app-title1 {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: xx-large;
+  margin-top: 5%;
+  margin-right: 2%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 2%;
+  margin-left: 66%;
+  margin-top: 1%;
+}
+.material-icons {
+  width: 100px;
+  height: 40px;
+  border-radius: 2%;
+  margin-left: 66%;
+  margin-top: 1%;
+}
+.input {
+  width: 600px;
+  height: 50px;
+  margin-left: 10%;
+  margin-top: 3%;
+  border-radius: 3%;
+}
+.complete {
+  text-decoration: line-through;
+}
+.view {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.btncomplete {
+  width: 100px;
+  height: 40px;
+  border-radius: 2%;
+}
+.btndelete {
+  width: 100px;
+  height: 40px;
+  border-radius: 2%;
+  background-color:rgb(130, 238, 135);
+  color: rgb(230, 13, 13);
 }
